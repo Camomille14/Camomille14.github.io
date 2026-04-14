@@ -44,6 +44,11 @@ nav {
 	grid-row: 2 / 3;
 	grid-column: 1 / 2;
 	height: max-content;
+	display: flex;
+	justify-content: center;
+	background-color: #FFD5E2;
+	cursor: url("Assets/93802.png"), auto;
+	
 }
 
 main {
@@ -107,12 +112,11 @@ p {
 
 ul {
 	list-style-type: none;
-	margin: 60px;
-	padding: 40px;
+	margin: 10px;
+	padding: 5px;
 	overflow: hidden;
-	background-color: #FFD5E2;
-	border: 2px solid #3f271b;
 	cursor: url("Assets/93802.png"), auto
+	
 	
 }
 
