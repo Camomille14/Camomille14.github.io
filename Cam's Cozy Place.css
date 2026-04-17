@@ -103,6 +103,7 @@ h1 {
 	text-align: center;
 	background-color:#FFD9D8; 
 	border: 2px solid #3f271b;
+	border-radius: 10px;
 	margin: auto;
 	padding: 40px;
 	margin-bottom: 50px;
@@ -112,6 +113,7 @@ h2 {
 	color: #3f271b;
 	background-color:#FFD5E2;
 	border: 2px solid #3f271b;
+	border-radius: 10px;
 	padding: 40px;
 	margin: auto;
 	margin-bottom: 50px;
@@ -124,7 +126,17 @@ h2 {
 	
 h3 {
 	color: #3f271b;
+	background-color :#FFD9D8;
+	border: 2px solid #3f271b;
+	border-radius: 10px;
+	padding: 40px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 60px;
+	margin-bottom: 5px;
 	font-family: FT88;
+	font-weight: bolder;
+	
 }
 
 h4 {
@@ -147,17 +159,20 @@ p {
 }
 
 ul {
-	list-style-type: none;
+	list-style-type:circle;
 	margin: 20px;
-	padding: 10px;
+	padding: 25px;
 	overflow: hidden;
-	cursor: url("Assets/93802.png"), auto
+	cursor: url("Assets/93802.png"), auto;
+	list-style-image: url("Assets/PIXELS/2e9cc8b7.gif");
+ 	
 	
 	
 }
 
 li {
 	cursor: url("Assets/93802.png"), auto
+	
 }
 
 button {
