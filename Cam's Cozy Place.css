@@ -8,6 +8,7 @@
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 350px auto;
+	justify-content: center;
 }
 
 .navblink {
@@ -90,7 +91,7 @@ main {
 	justify-content: center;
 	height: max-content;
 	background-image: url("Assets/BACKGROUNDS/966814i8pz6zikwc.webp");
-	width: max-content;
+	width: auto;
 	
 }
 
